@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: orange;
+    font-family: "Timmana" , sans-serif;
+}
+
+@font-face{
+    font-family: "delirium";
+    src: url(delirium.ttf);
+}
+
+
+body{
+    background-color: #262626;
+}
+
+.jumbotron{
+    margin:0;
+    padding:0;
+}
+#headContainer {
+    width: 100%;
+    margin-left: auto;
+}
+#headTitle{
+    font-size: 24vw;
+    font-family: "delirium";
+    color: #ff711e;
+    width: 100%;
+    text-align: center;
+
+}
+#searchNav {
+    text-align: center;
+    margin-left: 18%;
+
+}
+header {
+    display: block;
+}
+
+#mainNavbar {
+    height: 40px;
+    width: 100%;
+}
+#mainNavbarList {
+    padding: 25px 25px;
+}
+.navItem {
+    margin-left: 20px;
+    float: left;
+}
+a.navLinks:hover {
+    color: #c2c2c2;
+    text-decoration: none;
+}
+a.navLinks {
+    color: #7c7c7c;
+    font-size: 20px;
+}
+#navbarBtn {
+    display: none;
+}
+
+
+main {
+    height: 100%;
+}
+
+#foodDiv {
+    display: none;
+}
+#drinkDiv {
+    display: none;
+}
+#spaceArea{
+    display: none;
+}
+#searchFields {
+    display: none;
+}
+
+
+
+
+#drinkResults {
+    color: white;
+}
+.foodResults{
+    background-color: white;
+} 
+
+.drinkCard {
+    padding: 10px;
+}
+
+.about{
+    width: auto;
+    margin: 0 auto;
+    background-color: #ff711e;
+    margin-top:60px;
+    outline:1px orange;
+    font-family: "Timmana" , sans-serif;
+    padding: 10px;
+}
+#resultBtn{
+    margin: auto;
+}
+#foodResultBtn{
+    display: none;
+    float: left;
+}
+#drinkResultBtn{
+    display: none;
+    float: left;
+    
+}
+#choiceToSearch{
+    margin: auto;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #searchNav{
+        flex-direction: column !important;
+        font-size: 100px;
+        margin:0;
+    }
+    .nav-link{
+        font-size: 4vw;
+        text-align: center;
+    }
+    #headTitle {
+        font-size: 30vw;
+    }
+    a.navLinks {
+        font-size: 15px;
+    }
+    #mainNavbarList {
+        padding: 10px 10px;
+    }
+    #mainNavbar {
+        background-image: url("../images/zwartevilt/zwartevilt.png");
+    }
+    
+}
+
+
+
+.navBar{
+    margin-right: 18%;
+    
+}
+
+.button{
+    background-color: orangered;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+}
